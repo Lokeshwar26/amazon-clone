@@ -1,0 +1,344 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.navlogo{
+    width:100px;
+    height:50px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border : 1.5px solid white;
+}
+.add-1{
+    color:#cccccc;
+    font-size: 0.80rem;
+    margin-left: 15px;
+}
+.add-2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.icon-add{
+    display:flex;
+    align-items: center;
+}
+.navsearch{
+    display:flex;
+    width:450px;
+    height:40px;
+    color:#0f1111;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.navsearch:hover{
+    border:2px solid orange;
+}
+.searchitem{
+    border:#f3f3f3;
+}
+.searchitem{
+    width:346px;
+}
+.selectsea{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.icon-sea{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.box4{
+    display: flex;
+}
+.flag{
+    background-image: url(download.jpeg);
+    background-size: cover;
+    width:22px;
+    height:16px;
+    margin: 0px 1px 2px 0px;
+    display: flex;
+}
+.en{
+    display: flex;
+    color:#ffffff;
+}
+.arrow{
+    height:8px;
+    width:4px;
+}
+span{
+    font-size: 0.7rem;
+}
+.sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 27px;
+}
+.cart {
+    font-size: 14px;
+    font-weight: 700;
+}
+.panel{
+    height:40px;
+    background-color: #332f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelall{
+    margin-right: 15px;
+}
+.panelops p{
+    display:inline;
+    margin-left:20px;
+}
+.panelops{
+    width:70%; 
+    font-size: 0.8rem;
+}
+.paneldeals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+#p1{
+    border: 3px solid transparent;
+}
+#p1:hover{
+    border : 1.5px solid white;
+}
+#p2{
+    border: 3px solid transparent;
+}
+#p2:hover{
+    border : 1.5px solid white;
+}
+#p3{
+    border: 3px solid transparent;
+}
+#p3:hover{
+    border : 1.5px solid white;
+}
+#p4{
+    border: 3px solid transparent;
+}
+#p4:hover{
+    border : 1.5px solid white;
+}
+#p5{
+    border: 3px solid transparent;
+}
+#p5:hover{
+    border : 1.5px solid white;
+}
+
+.herosec{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height:350px;
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.heromsg{
+    background-color: white;
+    color:#0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:90%;
+    height:40px;
+    margin-bottom: 25px;
+}
+.heromsg a {
+    color:#007185;
+    text-decoration: none;
+}
+.shopsec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.Box{
+    height:400px;
+    width:23%;
+    background-color: white ;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.boximg{
+    height:350px;
+    background-size:cover;
+    margin-top: 0.7rem;
+    margin-bottom: 0.4rem;
+}
+.boxcon{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.boxcon p{
+    color:#007185;
+}
+footer{
+    margin-top: 18px;
+}
+.foot1{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot2{
+    background-color: #332f3d;
+    color:white;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    color:#dddddd;
+    margin-top: 10px;
+}
+ul{
+    margin:20px;
+}
+ul p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.foot3 {
+    background-color: #332f3d;
+    color:white;
+    border-top: 1px solid white; 
+    height:68px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.logo2{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100px;
+}
+.lang{
+    width:116px;
+    height:34px;
+    border: 0.2px solid white;
+    border-radius: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+.eng1{
+    color: #cccccc;
+    padding: 0px 7.8px;
+}
+.upright{
+    padding: 0px 7.8px;
+}
+.dol{
+    width:116px;
+    height:34px;
+    border: 0.2px solid white;
+    border-radius: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+.con{
+    width:116px;
+    height:34px;
+    border: 0.2px solid white;
+    border-radius: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+    margin: opx 4px 0px 0px;
+}
+.fl{
+    background-image: url("download.jpeg");
+    background-size: cover;
+    width:18px;
+    height:12px;
+}
+.foot4{
+    background-color:#0f1111;
+    color:white; 
+    height:70px;
+    justify-content: space-evenly;
+}
+.lp a {
+    color:#dddddd;
+    text-decoration: none;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.lp{
+    text-align: center;
+    padding: 25px 50px 0px 0px;
+    text-wrap: wrap;
+}
+.lpp{
+    font-size: 0.7rem;
+    text-align: center;
+}
+.l1:hover {
+    text-decoration: 0.2px underline  white;
+    text-underline-position: below;
+}
+.l2:hover {
+    text-decoration: 0.2px underline  white;
+    text-underline-position: below;
+}
+.l3:hover {
+    text-decoration: 0.2px underline  white;
+    text-underline-position: below;
+}
+.l4:hover {
+    text-decoration: 0.2px underline  white;
+    text-underline-position: below;
+}
